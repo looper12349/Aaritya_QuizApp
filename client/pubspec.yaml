@@ -1,0 +1,28 @@
+name: quiz_app_frontend
+description: "A new Flutter project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.4+4
+  fl_chart: ^0.35.0
+  http: ^1.2.2
+  simple_animations: ^5.0.0+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/quiz.png
+    - assets/tech.jpg
+
